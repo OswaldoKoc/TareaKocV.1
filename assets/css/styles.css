@@ -105,4 +105,18 @@ button:hover{
     text-decoration: underline;
 }
 
+.error-container {
+    width: 100%;
+    background-color: #fdf2f2;
+    border-left: 4px solid #e295b1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+}
 
+.error-msg {
+    color: #a34a68;
+    font-size: 13px;
+    font-weight: 500;
+}
