@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F0C6D8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brand h1 {
+    color: #e295b1;
+    font-size: 24px;
+}
+
+.brand span {
+    color: #666;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #e295b1;
+}
+
+.btn-exit {
+    background-color: #EEB3C9;
+    color: #fff !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.content-wrapper {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.welcome h2 {
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.welcome p {
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Grid de Tarjetas */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.menu-card {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #fdf2f2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-icon img {
+    width: 35px;
+}
+
+.menu-card h3 {
+    color: #e295b1;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.menu-card p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-card {
+    background-color: #EEB3C9;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.menu-card:hover .btn-card {
+    background-color: #DAC3E2;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 13px;
+    margin-top: auto;
+}

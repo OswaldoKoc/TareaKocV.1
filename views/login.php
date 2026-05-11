@@ -23,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="es">
 <head>
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="icon" href="../imagenes/logo1.png">
     <title>Login / Doña Solina</title>
 </head>
 <body>
